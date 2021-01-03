@@ -42,5 +42,4 @@ public class FlexibleCalculatorController {
 		calculatorsBeans.forEach(calculator -> calculator.getSupportedOperations().forEach(operation -> calculators.put(operation, calculator)));
 		System.out.println("Supported operations: " + calculators.keySet());
 	}
-
 }
