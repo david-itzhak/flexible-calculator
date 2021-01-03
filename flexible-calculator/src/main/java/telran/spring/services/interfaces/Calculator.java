@@ -1,11 +1,8 @@
 package telran.spring.services.interfaces;
 
+import java.util.Set;
+
 public interface Calculator {
 	int calculate(int op1, int op2, String operation);
-	
-	// operations
-//	String ADD = "add";
-//	String SUB = "subtract";
-//	String MUL = "multiply";
-//	String DIV = "divide";
+	Set<String> getSupportedOperations();
 }
